@@ -4,7 +4,7 @@ import telnetlib
 HOST = "192.168.157.21"
 user = input("Enter your telnet username: ")
 password = getpass.getpass()
-
+## let see if this works.###
 tn = telnetlib.Telnet(HOST)
 
 tn.read_until(b"Username: ")
